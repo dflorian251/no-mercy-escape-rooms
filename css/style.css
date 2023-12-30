@@ -177,7 +177,8 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo.jpg);
+	background-image: url(../img/test-logo.jpg);
+	width: 50rem;
 }
 .navbar-shrink .navbar-brand {
 	background-image: url(../img/logo.png);
@@ -813,10 +814,9 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 ul.social-list {
 	text-align: center;
 	margin: 0 auto;
-}
-ul.social-list li{
-	display: inline-block;
-	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 ul.social-list li .rotate-box-1 {
 	margin: 0;
@@ -824,6 +824,10 @@ ul.social-list li .rotate-box-1 {
 ul.social-list li a i {
 	color: #fff;
 	font-size:20px;
+}
+
+ul.social-list li ul {
+	display: flex;
 }
 /* ===== End social ===== */
 
@@ -1168,11 +1172,12 @@ p.subtitle {
 	align-items: center;
 }
 
-.rotate-box-info h4, .rotate-box-info p{
+.rotate-box-info h4, .rotate-box-info p {
 	text-align: center;
 }
 
 
-.rotate-box-2-wrapper .container .row{
+.rotate-box-2-wrapper .container .row {
 	display: flex;
-}
+} 
+
