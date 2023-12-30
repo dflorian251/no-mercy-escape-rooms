@@ -177,17 +177,20 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/test-logo.jpg);
-	width: 50rem;
+	background-image: url(../img/logo.jpg);
+	width: 300px;
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo.jpg);
+	width: 300px;
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo.jpg);
+	width: 300px;
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo.jpg);
+	width: 300px;
 }
 
 /* Navbar links */
