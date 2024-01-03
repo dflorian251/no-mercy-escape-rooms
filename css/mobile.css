@@ -66,6 +66,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	/* Hero title and paragraph */
+	#text-carousel-intro-section .caption p {
+		font-size: 15px;
+	}
 
 
 	/* Team */
@@ -143,6 +147,10 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+	/* Hero title and paragraph */
+	#text-carousel-intro-section .caption p {
+		font-size: 15px;
+	}
 
 	/* Navbar brand */
 	.navbar-brand, .navbar-brand:focus {
