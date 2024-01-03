@@ -240,15 +240,6 @@
         margin-bottom: 80px;
     }
 
-	/* Prices */
-	.prices .price-box-featured .panel-footer {
-		box-shadow: none !important;
-	}
-
-	ul.contact-address {
-		margin-bottom: 50px;
-	}
-
 	/* Partners & Foter */
 	#partners-section, footer {
 		text-align: center;
@@ -259,6 +250,10 @@
 	.owl-prev,
 	.owl-next {
 		display: none !important;
+	}
+
+	.rotate-box-2-wrapper .container .row {
+		flex-direction: column;
 	}
 
 }
