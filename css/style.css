@@ -180,19 +180,19 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo.jpg);
+	background-image: url(../img/logo.png);
 	width: 300px;
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/logo.jpg);
+	background-image: url(../img/logo.png);
 	width: 300px;
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/logo.jpg);
+	background-image: url(../img/logo.png);
 	width: 300px;
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/logo.jpg);
+	background-image: url(../img/logo.png);
 	width: 300px;
 }
 
