@@ -201,6 +201,10 @@
 	.navbar-inverse.navbar-shrink .navbar-toggle .icon-bar {
 		background-color: #FFF !important;
 	}
+	.container .navbar-header {
+		display: flex;
+		flex-direction: row-reverse;
+	}
 
 	/* Page */
 	.page {
