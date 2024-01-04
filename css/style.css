@@ -7,6 +7,10 @@
 	--night: #080D0Bff;
 	--wenge: #585050ff;
 }
+::selection {
+	background: var(--red);
+	color: #fff;
+}
 
 html {
 	height: 100% !important;
@@ -829,6 +833,9 @@ ul.contact-address li i {
 }
 .footer a{
 	text-decoration: none;
+}
+footer .container .row {
+	display: flex;
 }
 
 /*Widget1: Useful Links*/

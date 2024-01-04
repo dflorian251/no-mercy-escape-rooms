@@ -145,7 +145,6 @@
 
 	/* Navbar toggle button */
 	.navbar-toggle {
-		margin-top: 18px;
 		border: none;
 	}
 	.navbar-toggle:hover, .navbar-toggle:focus {
@@ -204,6 +203,7 @@
 	.container .navbar-header {
 		display: flex;
 		flex-direction: row-reverse;
+		align-items: center;
 	}
 
 	/* Page */
@@ -241,6 +241,9 @@
 	/* Partners & Foter */
 	#partners-section, footer {
 		text-align: center;
+	}
+	footer .container .row {
+		flex-direction: column;
 	}
 
 	/* Hiding elements */
