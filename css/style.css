@@ -212,6 +212,7 @@ section {
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 	background-color: transparent;
+	color: #9c130f;
 }
 .navbar-default .dropdown-menu {
 	padding: 10px 0;
@@ -223,6 +224,7 @@ section {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a.active, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
 	text-decoration: none;
 	background-color: transparent;
+	color: #9c130f;
 }
 
 /* Navbar inverse dropdown */
@@ -325,7 +327,7 @@ a.rotate-box-1, a.rotate-box-2 {
 	color: #363940;
 }
 a.rotate-box-1:hover, a.rotate-box-2:hover {
-	color: #676D75;
+	color: #9C130F;
 }
 .rotate-box-1 .rotate-box-icon {
 	display: inline-block;
@@ -365,6 +367,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
+	background-color: #9c130f;
 }
 .rotate-box-1.square-icon .rotate-box-icon .fa, .rotate-box-2.square-icon .rotate-box-icon .fa{
 	-webkit-transition: all 0.2s ease-in-out;
@@ -666,7 +669,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	width: 120px;
 	height: 120px;
 	background: transparent;
-	-ms-transform: rotate(45deg);
+	-ms-transform: rotate(deg);
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	margin: 0 auto;
@@ -682,6 +685,9 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	margin-bottom: 50px;
 	padding-top: 10px;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .team-triangle .content {
 	-ms-transform: rotate(-45deg);
@@ -719,14 +725,18 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     font-weight: 400;
     margin-top: 0;
 }
-.team-items .col-md-2:nth-child(7n+5) {
+.team-items .col-md-2 {
 	clear: left;
-	margin-left: 24.9999999%;
+	margin: 1rem 0 3.5rem 0;
 }
-.team-items .col-md-2:nth-child(7n+1) {
-	clear: left;
-	margin-left: 16.6666666%;
+.team-items p {
+	text-align: center;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 /* ===== End team ===== */
 
 /* ===== Begin panels ===== */
@@ -892,7 +902,7 @@ ul.imp-links li a {
 .page-header h2 {
 	text-transform: uppercase;
 }
-p.subtitle {
+p {
 	letter-spacing: 2px;
 	margin-top: 10px;
 }
