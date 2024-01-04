@@ -95,20 +95,6 @@
         width: 33.3333%;
     }
 
-	/* Prices */
-	.price-box-featured .panel {
-		box-shadow: none;
-		-webkit-transform: scale(1);
-		-moz-transform: scale(1);
-		-ms-transform: scale(1);
-		-o-transform: scale(1);
-		transform: scale(1);
-	}
-
-	.prices .price-box-featured .panel-footer {
-		box-shadow: none !important;
-	}
-
 	/* Parallax background */
 	.parallax {
 		background-attachment: scroll !important;
