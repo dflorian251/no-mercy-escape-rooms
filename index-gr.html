@@ -82,8 +82,10 @@
             </header>
             <!-- ========= END HEADER =========-->
             
-            
-            
+            <button onclick="toggleMute()" id="bg-music-btn">Mute/Unmute</button>
+            <audio id="bg-music" autoplay loop>
+                <source src="audio/TOQUEL - SUCCESS FREESTYLE ( Unofficial Audio ).mp3" type="audio/mpeg">
+            </audio>
             
         	<!-- Begin text carousel intro section -->
 			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/background.jpg);">
@@ -298,7 +300,7 @@
                 	<ul class="social-list">
                 		<li> <a href="https://www.instagram.com/no_mercy_escape_rooms/" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon"><i class="fa fa-instagram"></i></span></a></li>
                 		<li> <a href="https://www.facebook.com/profile.php?id=61553142991768" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span class="rotate-box-icon"><i class="fa fa-facebook"></i></span></a></li>
-                        <li> <a href="https://www.tiktok.com/@no_mercy_escape_rooms" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span class="rotate-box-icon"><i class="fa-brands fa-tiktok"></i></span></a></li>
+                        <li> <a href="https://www.tiktok.com/@no_mercy_escape_rooms" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span class="rotate-box-icon"><i class=" fa fa-brands fa-tiktok" style="transform: rotate(-45deg);"></i></span></a></li>
                     </ul>
                 </div>
                 
@@ -438,6 +440,21 @@
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
+
+        <script>
+            var bgMusic = document.getElementById("bg-music");
+            var muteButton = document.getElementById("bg-music-btn");
+
+            muteButton.onclick = function() {
+                if (bgMusic.muted) {
+                bgMusic.muted = false;
+                muteButton.textContent = "Mute";
+                } else {
+                bgMusic.muted = true;
+                muteButton.textContent = "Unmute";
+                }
+            };
+        </script>
 
     </body> 
         

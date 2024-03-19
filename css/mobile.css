@@ -134,8 +134,18 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 	/* Hero title and paragraph */
+	#text-carousel-intro-section .caption h1 {
+		font-size: 55px;
+	}
+
 	#text-carousel-intro-section .caption p {
-		font-size: 15px;
+		font-size: 25px;
+	}
+
+	/*Navbar header*/
+	.navbar-header {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	/* Navbar brand */
@@ -257,6 +267,11 @@
 		flex-direction: column;
 	}
 
+	#text-carousel-intro-section {
+		background-size: cover;
+	}
+
+
 }
 
 /* Extra Small Devices, Phones */ 
@@ -266,6 +281,10 @@
 	 #team-section .col-md-2 {
         width: 100%;
     }
+
+	#text-carousel-intro-section {
+		background-size: cover;
+	}
 
 }
 

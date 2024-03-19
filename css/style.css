@@ -785,3 +785,20 @@ p {
 #services-section{
 	padding: 0 0 0 0;
 }
+#text-carousel-intro-section {
+	background-size: cover;
+	background-position: 0 -25rem;
+}
+
+#bg-music-btn {
+	position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+	z-index: 100;
+}
+
