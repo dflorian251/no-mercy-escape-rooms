@@ -62,6 +62,11 @@
 		font-size: 14px;
 	}
 
+	#bg-music-btn {
+		bottom: 20px;
+      	right: 20px;
+      	font-size: 14px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -271,6 +276,11 @@
 		background-size: cover;
 	}
 
+	#bg-music-btn {
+		bottom: 10px;
+      	right: 10px;
+    	font-size: 12px;
+	}
 
 }
 

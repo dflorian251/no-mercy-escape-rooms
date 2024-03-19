@@ -791,11 +791,12 @@ p {
 }
 
 #bg-music-btn {
+	font-family:'Times New Roman', Times, serif;
 	position: fixed;
     bottom: 20px;
     left: 20px;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #9c130f;
     color: #fff;
     border: none;
     cursor: pointer;
