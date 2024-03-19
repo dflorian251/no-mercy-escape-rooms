@@ -35,6 +35,10 @@
 
         <script src="https://kit.fontawesome.com/c4f6644410.js" crossorigin="anonymous"></script>
 
+        <!--Booking System-->
+        <link href="https://www.escapeall.gr/Content/API/styles.css" rel="stylesheet">
+        <link href="https://www.escapeall.gr/CustomCss/nomercy.css" rel="stylesheet">
+
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
@@ -279,6 +283,13 @@
 
             </section>
             <!--End team-->
+
+            <!--Book System-->
+            <div id="BookingId"></div>
+            <div class="escapeall">
+                Booking System powered by: <a href="https://www.escapeall.gr/">Escape<span>All</span></a>
+            </div>
+            <!--End Book System-->
                 
        
             <!-- Begin social section -->
@@ -456,6 +467,10 @@
                 }
             };
         </script>
+
+        <!-- Booking System-->
+        <script src="https://www.escapeall.gr/Scripts/API/all.js"></script>
+        <script type="text/javascript"> ea_jQuery(document).ready(function(){ GetBookingCalendra('#BookingId', { ServiceId: ['caa75b98-7276-40cc-9404-5c1cd45e930e'], lang: 'el', Template: 5 }); }); </script>
 
     </body> 
         
