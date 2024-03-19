@@ -802,4 +802,8 @@ p {
     cursor: pointer;
 	z-index: 100;
 }
+#booking-system {
+	width: 80%;
+	margin: 0 auto;
+}
 
