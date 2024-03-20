@@ -534,6 +534,7 @@ ul.social-list li ul {
 /* ===== Begin contact ===== */
 #contact-section {
 	position: relative;
+	background-color: black;
 }
 #contact-section h4 {
 	font-weight: 400;
@@ -804,11 +805,21 @@ p {
 }
 #booking-system {
 	margin: 0 auto;
-	background-color: #363940;
-	background-position: 0px 85.9px;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+	padding: 50px 0;
+	position: relative;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last value) as needed */
+	z-index: 1;
+}
+.content {
+	position: relative;
+	z-index: 2;
 }
 #booking-system .escapeall {
 	margin-bottom: 0;
@@ -817,5 +828,10 @@ p {
 	text-align: center;
 	color: white;
 }
-
-
+#booking-system-container {
+	background-position: 0px 85.9px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: -1;
+}
