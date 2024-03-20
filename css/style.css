@@ -827,6 +827,7 @@ p {
 #booking-system h2 {
 	text-align: center;
 	color: white;
+	padding-top: 3rem;
 }
 #booking-system-container {
 	background-position: 0px 85.9px;
