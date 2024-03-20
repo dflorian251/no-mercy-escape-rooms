@@ -803,7 +803,19 @@ p {
 	z-index: 100;
 }
 #booking-system {
-	width: 80%;
 	margin: 0 auto;
+	background-color: #363940;
+	background-position: 0px 85.9px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
+#booking-system .escapeall {
+	margin-bottom: 0;
+}
+#booking-system h2 {
+	text-align: center;
+	color: white;
+}
+
 
