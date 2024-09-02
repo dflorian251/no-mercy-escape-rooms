@@ -89,7 +89,7 @@
             
             <button onclick="toggleMute()" id="bg-music-btn">Mute/Unmute</button>
             <audio id="bg-music" autoplay loop>
-                <source src="audio/background-music.mp3" type="audio/mpeg">
+                <source src="./audio/background-music.mp3" type="audio/mpeg">
             </audio>
             
         	<!-- Begin text carousel intro section -->
@@ -126,10 +126,11 @@
                             <h2>KARMA</h2>
                             <div class="devider"></div>
                             <p class="subtitle">
-                                ΡΩΣΙΑ 2024<br><br>
-                                Οι εισαγγελείς έφτασαν στο παλιό σπίτι στην οδό ΝΙΓΡΙΤΗΣ 13, έτοιμοι να το διεκδικήσουν για λογαριασμό της τράπεζας.<br><br>
-                                Μέσα σε αυτά τα τείχη παραμονεύει η ΚΟΛΑΣΗ.. μια οικογένεια. Τα στριμμένα πρόσωπά τους χαραγμένα με μόνιμο ΜΙΣΟΣ, Τα μάτια τους κρατούν μια ΑΠΑΙΣΙΑ λάμψη, τρεμοπαίζουν σαν ΚΟΛΑΣΜΕΝΑ κάρβουνα έτοιμα να καταναλώσουν τους αθώους και να τους παρασύρουν στην άβυσσο της ΑΠΟΓΝΩΣΗΣ.<br><br>
-                                Το κάρμα τους, βαμμένο με αιματοχυσία και παραφροσύνη, έπλεξε μια ταπετσαρία αδυσώπητου ΤΡΟΜΟΥ μέσα στην κατοικία τους. Οι σκιές χορεύουν πονηρά πάνω στην ξεφλουδισμένη ταπετσαρία, ψιθυρίζοντας βωμολοχίες που μοιάζουν να εισχωρούν στα ίδια τα θεμέλια.<br><br>
+                                ΝΟΡΝΤΒΙΚ , ΡΩΣΙΑ 2024<br><br>
+                                Μια παλιά πεποίθηση λέει πως το κάρμα, η αόρατη δύναμη που επιστρέφει τις πράξεις μας πίσω σε εμάς, περιμένει στη σκιά να εκδικηθεί.<br>
+                                Όσοι έβλαψαν άλλους, νιώθουν τις παγωμένες αναπνοές του στο σβέρκο τους, καθώς οι ενοχές τους γίνονται εφιάλτες τη νύχτα.<br><br>
+                                Καθώς οι σκιές πυκνώνουν, κάθε ανεξήγητος ψίθυρος και κάθε αμυδρή αντανάκλαση μπορεί να είναι το κάρμα που επιστρέφει για να τους διεκδικήσει.<br>
+                                Εσείς μια ομάδα ανακαίνισης σπιτιών καλείστε στην οδό ΝΗΓΡΙΤΗ 13 για να δείτε τον χώρο που πρέπει να μεταμορφώσετε.<br>
                             </p>
                         </div>
                     </div>
@@ -147,7 +148,7 @@
                                     <span class="rotate-box-icon"><i class="fa fa-puzzle-piece"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Puzzle Skills</h4>
-                                        <p>52%</p>
+                                        <p>75%</p>
                                     </div>
                                 </a>
                             </div>
@@ -157,7 +158,7 @@
                                     <span class="rotate-box-icon"><i class="fa fa-gauge-simple-high"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Pressure</h4>
-                                        <p>49%</p>
+                                        <p>70%</p>
                                     </div>
                                 </a>
                             </div>
@@ -168,16 +169,6 @@
                                     <div class="rotate-box-info">
                                         <h4>Brain Power</h4>
                                         <p>64%</p>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
-                                    <span class="rotate-box-icon"><i class="fa fa-dumbbell"></i></span>
-                                    <div class="rotate-box-info">
-                                        <h4>Physical</h4>
-                                        <p>69%</p>
                                     </div>
                                 </a>
                             </div>
@@ -462,11 +453,11 @@
 
             muteButton.onclick = function() {
                 if (bgMusic.muted) {
-                bgMusic.muted = false;
-                muteButton.textContent = "Mute";
+                  bgMusic.muted = false;
+                  muteButton.textContent = "Mute";
                 } else {
-                bgMusic.muted = true;
-                muteButton.textContent = "Unmute";
+                  bgMusic.muted = true;
+                  muteButton.textContent = "Unmute";
                 }
             };
         </script>
