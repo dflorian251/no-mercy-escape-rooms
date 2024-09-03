@@ -535,6 +535,13 @@ ul.social-list li ul {
 }
 /* ===== End social ===== */
 
+/* ===== Begin CV submission ==== */
+#cv-submission-section {
+  color: white;
+  background-color: #080b0f;
+  padding: 50px 0;
+}
+
 
 /* ===== Begin contact ===== */
 #contact-section {
