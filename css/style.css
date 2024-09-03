@@ -157,6 +157,11 @@ section {
 	padding-right: 50px;
 }
 
+.header-main .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* Navbar brand (logo) */
 .navbar-brand {
@@ -178,19 +183,20 @@ section {
 }
 .navbar-default .navbar-brand {
 	background-image: url(../img/logo.png);
-	width: 300px;
+	width: 150px;
+  height: auto;
 }
 .navbar-shrink .navbar-brand {
 	background-image: url(../img/logo.png);
-	width: 300px;
+	width: 150px;
 }
 .navbar-transparent .navbar-brand {
 	background-image: url(../img/logo.png);
-	width: 300px;
+	width: 150px;
 }
 .navbar-inverse .navbar-brand {
 	background-image: url(../img/logo.png);
-	width: 300px;
+	width: 150px;
 }
 
 /* Navbar links */
