@@ -5,8 +5,8 @@
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
-    
+@media only screen and (min-width : 320px) { 
+
 }
 
 /* Extra Small Devices, Phones */ 
@@ -17,9 +17,9 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 	/* Make Navigation Toggle on Desktop Hover (use class: dropdown-hover) */
-    .dropdown-hover:hover > .dropdown-menu {
-        display: block;
-    }
+  .dropdown-hover:hover > .dropdown-menu {
+      display: block;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -225,6 +225,10 @@
 	.page {
 		padding-top: 30px;
 	}
+
+  .characters-container {
+    flex-direction: column;
+  }
 
 	/* Some Text Center Area */
 	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
