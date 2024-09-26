@@ -461,6 +461,25 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 
 /* ===== Begin team ===== */
+.characters-container {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+}
+
+.character-container {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.character-container .character-image {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
 .team-item {
 	height: 120px;
 }	
