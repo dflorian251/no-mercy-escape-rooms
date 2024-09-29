@@ -9,13 +9,24 @@
   .navbar-nav {
     flex-direction: column;
   }
+  .navbar-collapse {
+    padding: 0 2rem;
+    border-width: 0;
+  }
+  .navbar-collapse > .navbar-nav > li > a,
+  .navbar-collapse > .navbar-nav > li > button {
+    margin: 0;
+  }
+  .navbar-collapse > .navbar-nav > li > button {
+    color: white;
+  }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-  .navbar-nav {
+  /* .navbar-nav {
     flex-direction: column;
-  }
+  } */
 }
 
 /* Small Devices, Tablets */
@@ -26,6 +37,13 @@
   }
   .navbar-nav {
     flex-direction: row;
+  }
+  .navbar-collapse > .navbar-nav > li > a,
+  .navbar-collapse > .navbar-nav > li > button {
+    margin: 1rem;
+  }
+  .navbar-collapse > .navbar-nav > li > button {
+    color: #9C130F;
   }
 }
 
@@ -188,7 +206,7 @@
 
 	/* Navbar collapse / links */
 	.navbar-collapse {
-		border-width: 2px;
+		border-width: 0;
 	}
 	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
 		max-height: 440px;
